@@ -1,0 +1,16 @@
+h1{
+    color: turquoise;
+    margin-bottom: 50px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px dashed orangered;
+}
+
+p {
+    margin-top: 10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#example {margin-bottom:50px;}
