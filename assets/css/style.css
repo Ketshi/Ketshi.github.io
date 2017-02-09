@@ -3,6 +3,7 @@ h1{
     margin-bottom: 50px;
     margin-bottom: 100px;
     padding-bottom: 100px;
+    background-color: gray;
     border-bottom: 1px dashed orangered;
 }
 
@@ -11,10 +12,37 @@ p {
     margin-right:10px;
     margin-bottom: 10px;
     margin-left: 10px;
+  color: grey;
 }
 
+p, li {
+  text-decoration:underline;
+}
 #example {margin-bottom:50px;}
 
 .main-image {
-    height: 50%;
+    height:80%;
+}
+
+
+body {
+  font: 1em/150% Helvetica, Arial, sans-serif;
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 33em;
+}
+
+
+div p, #id:first-line {
+  background-color: gray;
+  
+}
+
+div p {
+  margin: 0;
+  padding: 1em;
+}
+
+div p + p {
+  padding-top: 0;
 }
