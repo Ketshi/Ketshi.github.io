@@ -14,3 +14,7 @@ p {
 }
 
 #example {margin-bottom:50px;}
+
+.main-image {
+    height: 50%;
+}
