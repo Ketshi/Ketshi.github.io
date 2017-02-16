@@ -47,3 +47,8 @@ div p {
 div p + p {
   padding-top: 0;
 }
+
+
+.navbar-default .navbar-backgrnd {
+    color:turquoise;
+}
