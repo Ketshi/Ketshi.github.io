@@ -20,33 +20,21 @@ p, li {
 }
 #example {margin-bottom:50px;}
 
+
+.container{width:auto;}
+
 .main-image {
-    height:80%;
-    float:right;
+    height:100%;
+    width:100%;
 }
 
 
 body {
-  font: 1em/150% Helvetica, Arial, sans-serif;
-  padding: 1em;
-  margin: 0 auto;
-  max-width: 33em;
+  font: Helvetica, Arial, sans-serif;
+  margin:8px;
 }
+ 
 
-
-div p, #id:first-line {
-  background-color: gray;
-  
-}
-
-div p {
-  margin: 0;
-  padding: 1em;
-}
-
-div p + p {
-  padding-top: 0;
-}
 
 
 .navbar-default .navbar-backgrnd {
